@@ -1,0 +1,320 @@
+/* HEADER */
+.logo {
+    color: red;
+    width: 200px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.header {
+    text-align: center;
+    padding-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+}
+
+
+.breadcrumbs{
+    list-style: none;
+    padding-top: 5px;
+}
+
+.breadcrumbs li{
+    display: inline-block;
+}
+
+.breadcrumbs li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    color: gray;
+}
+
+.breadcrumbs li:last-child a{
+    color: black;
+}
+
+#menu {
+    color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 50px;
+    margin-left: 20px;
+    
+}
+
+#menu ul a{
+    display: block;
+    color: black;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+#menu a{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* DESPLEGABLE */
+
+#menu ul ul {
+    display: none;
+    position: absolute;
+    left: 0;
+    padding: 0;
+}
+
+#menu ul ul li {
+    float:none;
+    width:150px
+   }   
+
+#menu ul li:hover > ul {
+    display: block;
+}
+
+/* GALERIA */
+
+.main{
+    padding-top: 110px;
+    padding-left: 100px;
+}
+
+.products .product {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    padding-left: 20px; 
+    
+}
+
+
+.product-img{
+    max-width: 100%;
+    display: inline-block;
+    padding-top: 20px;  
+}
+
+.product-img:hover{
+    background: url(img/foto1a.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+.product h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.product p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px; 
+    padding-top: 5px;
+}
+
+
+
+/* FOOTER */
+
+
+.footer1{ 
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-size: 25px;
+    text-align: center;
+    border-top-style:solid;
+    border-top-color: rgb(219, 218, 218);
+    border-width:thin;
+    margin-top: 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer1 h2 {
+    font-weight: bold;
+}
+
+.footer1 h4 {
+    font-size: 20px;
+}
+
+input{
+    border-top-style:solid;
+    border-top-color: black;   
+}
+
+.discount{
+    padding-top: 2px;
+}
+
+.subs{
+    padding: 12px;
+}
+
+.enter{
+    padding: 12px;
+}
+
+
+.footer2{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    border-top-style:solid;
+    border-top-color: rgb(219, 218, 218);
+    border-width:thin;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.contact{
+    padding-top: 5px;
+}
+
+.li{
+    padding: 12px;
+}
+.date li{
+    display: inline-block;
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.date li a{
+    text-decoration: none;
+    color: black;
+}
+
+.date li a:hover{
+    text-decoration-line: underline;
+}
+
+
+/*LISTA 1*/
+
+.navfooter{
+    border-top-style:solid;
+    border-top-color: rgb(219, 218, 218);
+    border-width:thin;
+    padding-top: 50px;
+    padding-left: 40px;
+    float: left;
+}
+
+.navfooter li{
+    padding-bottom: 10px;
+}
+
+.navfooter a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;  
+}
+
+.navfooter li a{
+    padding-bottom: 50px;
+}
+
+/*LISTA 2*/
+
+.navfooter2{
+    float: left;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+
+.navfooter2 li {
+    padding-bottom: 10px; 
+}
+
+.navfooter2 a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*LISTA 3*/
+
+.navfooter3{
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.navfooter3 li {
+    padding-bottom: 10px; 
+}
+
+.navfooter3 a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*LISTA 4*/
+
+.navfooter4{
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.navfooter4 li {
+    padding-bottom: 10px; 
+}
+
+.navfooter4 a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*LISTA 5*/
+
+.navfooter5 {
+    float: left;
+    padding-top: 50px;
+    padding-left: 70px;
+}
+
+.navfooter5 li {
+    padding-bottom: 10px;
+}
+
+.navfooter5 a{
+    text-decoration: none;
+    color: black; 
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* ICONOS */
+
+.fa-facebook-f {
+    padding-right: 10px;
+}
+
+.fa-twitter {
+    padding-right: 10px;
+}
+
+.fa-instagram {
+    padding-right: 10px;
+}
+
+.fa-pinterest {
+    padding-right: 10px;
+}
+
+.fa-youtube {
+    padding-right: 10px;
+}
